@@ -22,38 +22,38 @@ function HeaderSection() {
               extraMedium
               semiBold
               defaultColor
-            >{`Hello, It's me`}</AppText>
+            >{`Hi`}</AppText>
             <AppText
               textTag="h1"
               extraLarge
               bold
               primary
-            >{`Hrithik Puppala`}</AppText>
+            >{`Ravi Teja Gattu`}</AppText>
             <div className="flex flex-row flex-wrap gap-2">
               <AppText textTag="p" extraMedium semiBold defaultColor>
                 {`I'm a`}
               </AppText>
-              <TypingText textArr={["Backend Developer", "DevOps Engineer", "Data Engineer" ]} />
+              <TypingText textArr={["Product Manager" ]} />
             </div>
             <AppText textTag="p" medium defaultColor customClass="mt-4 mb-4">
-              {`A passionate Engineer curious about how systems work and having an experience building scalable services leveraging various tech and cloud. I learn through by doing cool projects.`}
+              {`A customer-centric Product Manager with a passion for understanding system intricacies, skilled in crafting scalable services with diverse technologies & cloud solutions. I prioritize customer empathy and thrive on hands-on project experiences to drive continuous innovation and impactful product outcomes.`}
             </AppText>
             <ContactLogos />
           </div>
           <div className="flex items-center justify-start gap-4 mt-6 flex-wrap">
           <AppButton
-              ariaLabel="Send email"
+              ariaLabel="Email"
               buttonType="primary"
-              onClick={() => window.location.href = 'mailto:hrithik.puppala@sjsu.edu'}
+              onClick={() => window.location.href = 'mailto:raviteja.gattu@sjsu.edu'}
               buttonText="Contact Me"
             />
             <AppButton
               ariaLabel=""
               buttonType="secondary"
               onClick={() => {
-                window.open("https://www.bit.ly/hrithik-resume", '_blank');
+                window.open("https://drive.google.com/file/d/1YVnoosaGqvFHCA2s39CrYj3czYb4zwjJ/view", '_blank');
               }}
-              buttonText="See My Resume"
+              buttonText="My Resume"
             />
           </div>
         </div>
