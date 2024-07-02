@@ -44,7 +44,9 @@ function HeaderSection() {
           <AppButton
               ariaLabel="Email"
               buttonType="primary"
-              onClick={() => { window.location.href = "mailto:raviteja.gattu@sjsu.edu";}}
+              onClick={() => {
+                window.location.href = "mailto:raviteja.gattu@sjsu.edu";
+              }}
               buttonText="Contact Me"
             />
             <AppButton
