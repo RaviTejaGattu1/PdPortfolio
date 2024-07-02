@@ -8,17 +8,17 @@ const contactInfoArr = [
   {
     id: "github",
     icon: GithubLogo,
-    url: "https://github.com/Hrithik123",
+    url: "https://github.com/RaviTejaGattu1/",
   },
   {
     id: "linkedIn",
     icon: LinkedInLogo,
-    url: "https://www.linkedin.com/in/hrithik-puppala/",
+    url: "https://www.linkedin.com/in/iravitejag/",
   },
   {
     id: "mail",
     icon: MailLogo,
-    url: "mailto:hrithik.puppala@sjsu.edu",
+    url: "mailto:raviteja.gattu@sjsu.edu",
   }
 ];
 

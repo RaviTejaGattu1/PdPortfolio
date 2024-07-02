@@ -7,8 +7,8 @@ import AppText from "@/components/AppText";
 const educations = [
   {
     id: "MSC",
-    date: "August 2023 - June 2025",
-    course: "Master of Science in Software Engineering",
+    date: "Jan 2024 - Dec 2025",
+    course: "Master of Science in Computer Software Engineering",
     name: "San Jose State University",
     logoURL: "/icons/sjsu.svg",
     url: "https://www.sjsu.edu/",
@@ -17,8 +17,8 @@ const educations = [
   },
   {
     id: "BTech",
-    date: "Aug 2017 - June 2021",
-    course: "Bachelor of Technology in Computer Science",
+    date: "Aug 2012 - June 2016",
+    course: "Bachelor of Engineering in Electronics & Communication",
     name: "Indian Institute of Information Technology Sri City",
     logoURL: "/images/iiit-logo.png",
     url: "https://www.iiits.ac.in/",
